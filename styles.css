@@ -27,17 +27,26 @@ a:hover{
  hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:active
 */
 
-
+input:active[type="submit"] {
+   background-color: red;
+ }
 /*
  Give the text field a blue border upon focus.
  hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:focus
 */
+input:focus[type="text"]{
+   border-color: blue;
+}
 
 
 /* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
-
+span.spanclass {
+   font-size: x-small;
+}
 
 /* Give the 'img' tag in the header an ID and set its width to 190px */
-
+image.container.thisimage {
+   width: 190px;
+}
 
 /* Target all heading tags on the page and set their font family to 'Bree Serif', serif */
